@@ -184,7 +184,7 @@ spec:
                 role="$3"
 
                 url="${BASE_URL}/api/management/v1/principal-roles"
-                payload="{\"principalRole\":{\"name\":\"$role\",\"federated\":true}}"
+                payload="{\"principalRole\":{\"name\":\"$role\"}}"
 
                 resp_file="$(mktemp)"
                 code="$(request POST "$url" "$realm" "$token" "$payload" "$resp_file")"
