@@ -16,7 +16,7 @@ bootstrap:
     # -- Bootstrap container image repository.
     repository: apache/polaris-admin-tool
     # -- Bootstrap container image tag.
-    tag: 1.3.0-incubating
+    tag: 1.8.0
     # -- Bootstrap container image pull policy.
     pullPolicy: IfNotPresent
 
@@ -58,7 +58,7 @@ principals:
     # -- Job container image repository (must include /bin/sh and curl).
     repository: curlimages/curl
     # -- Job container image tag.
-    tag: 8.18.0
+    tag: 8.23.0
     # -- Job container image pull policy.
     pullPolicy: IfNotPresent
 
